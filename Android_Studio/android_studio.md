@@ -35,3 +35,5 @@
 > → 안드로이드 SDK 업데이트
 > → Android Virtual Device(AVD) 생성
 > → 앱 개발
+>
+>* 
