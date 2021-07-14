@@ -36,4 +36,4 @@
 > → Android Virtual Device(AVD) 생성
 > → 앱 개발
 >
->* 
+><br/>
