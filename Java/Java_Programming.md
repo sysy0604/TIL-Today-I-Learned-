@@ -62,7 +62,8 @@
 >    * 객체 내 생성자 코드 실행**
 >* 객체의 멤버 접근
 >  * 객체 레퍼런스 멤버
-> ` public static void main(String args[])
+>  /text
+>  public static void main(String args[])
 >  {
 >     Circle pizza;   //Circle객체에 대한 레퍼런스 변수 pizza 선언
 >     pizza = new Circle();   //Circle 객체 생성
@@ -70,4 +71,4 @@
 >     pizza.radius = 10;
 >     pizza.name = "자바 피자";
 >     double area = pizza.getArea();
->  }`
+>  }
