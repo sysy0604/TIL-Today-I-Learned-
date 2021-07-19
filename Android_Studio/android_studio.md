@@ -47,7 +47,7 @@
 >
 >* <버튼 클릭시 이벤트 실행>
 >
-> button = (Button)findViewById(R.id.button0);    //findViewById : 변수 별명(ID) 지정
+>" button = (Button)findViewById(R.id.button0);    //findViewById : 변수 별명(ID) 지정
 >button.setOnClickListener(new View.OnClickListener() {  //토스트 메시지. //클릭시 무조건 호출하는 메소드.
 >            @Override
 >            public void onClick(View v) {
