@@ -51,6 +51,7 @@
 >button.setOnClickListener(new View.OnClickListener() {  //토스트 메시지. //클릭시 무조건 호출하는 메소드.
 >            @Override
 >            public void onClick(View v) {
+>            
 >            }
 >        }); 
 >
