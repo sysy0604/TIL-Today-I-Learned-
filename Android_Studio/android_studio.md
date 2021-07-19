@@ -53,7 +53,7 @@
 >            public void onClick(View v) {
 >               
 >            }
->        });
+>        }); "
 >
 >Toast.makeText(getApplicationContext(), "버튼이 눌렸습니다.", Toast.LENGTH_SHORT).show();  //버튼 눌렸을 때 토스트메시지 출력
 >
