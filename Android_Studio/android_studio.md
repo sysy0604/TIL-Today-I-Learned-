@@ -108,11 +108,23 @@
 >   * 자신과 다른 레이아웃 사이의 간격을 지정함.
 >
 >
+>* visivility 속성
+>   * 위젯을 보일 것인지 여부를 결정
+>   * 디폴트인 visivle은 보이는 상태. invisible과 gone은 안 보이는 상태
+>   * invisible : 보이지 않을 뿐, 원래의 자리는 계속 유지함
+>   * gone : 보이지도 않으며 자리까지 없어짐
+>
+>* enabled, clickable 속성
+>   * enabled : 위젯의 동작 여부
+>   * clickable : 클릭이나 터치가 가능하도록 함
+>   * true와 false로 지정 (디폴트 : true)
+>   * XMl보다 JAVA코드에서 주로 사용함.
 >* 태그
 >* 버튼
 >   * 내가 내포할 자식이 있을땐 `<Button    />`
 >   * 없을때는 깔끔하게 닫는게 좋다. `<Button   Button/>`
 >   * 라디오버튼
 >   * 선택박스버튼
-
+>
+>
 >
