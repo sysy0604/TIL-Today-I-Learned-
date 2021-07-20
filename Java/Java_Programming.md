@@ -57,13 +57,13 @@
 >  * **반드시 new키워드**를 이용하여 생성
 >* 객체 생성 과정
 >  * 객체에 대한 레퍼런스 변수 선언
->  * **객체 생성
->    * 클래스 타입 크기의 메모리 할당
->    * 객체 내 생성자 코드 실행**
+>  * **객체 생성**
+>    * **클래스 타입 크기의 메모리 할당**
+>    * **객체 내 생성자 코드 실행**
 >* 객체의 멤버 접근
 >  * 객체 레퍼런스 멤버
 >  /text
->  ` public static void main(String args[])
+>   public static void main(String args[])
 >  {
 >     Circle pizza;   //Circle객체에 대한 레퍼런스 변수 pizza 선언
 >     pizza = new Circle();   //Circle 객체 생성
@@ -71,5 +71,5 @@
 >     pizza.radius = 10;
 >     pizza.name = "자바 피자";
 >     double area = pizza.getArea();
->  } `
+>  }
 >
