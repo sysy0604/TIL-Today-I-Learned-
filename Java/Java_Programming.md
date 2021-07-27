@@ -283,7 +283,18 @@
 >   * 클래스의 간결화 : 멤버의 중복 작성 불필요
 >   * 클래스 관리 용이 : 클래스들의 계층적 분류
 >   * 소프트웨어 생산성 향상 : 클래스 재사용과 확장 용이
->   
+>
+### 3. 상속 선언
+>* public class Person{}
+>* public class Student **extend** Person{} //Person을 상속받는 클래스 Student 선언
+>* public class StudentWorker extend Student{}  //Student를 상속받는 클래스 StudentWorker 선언
+>
+>* 부모클래스 - 슈퍼클래스(super class)
+>* 자식클래스 - 서브클래스(sub class)
+>* extend 키워드 : 상속을 선언할 때 사용. 확장한다.
+>
+>* [실습예제 5-1 클래스 상속 만들기 - Point와 ColorPoint 클래스](253p)
+>
 ## 5.2 클래스 상속과 객체(252p)
 ## 5.3 상속과 protected 접근 지정자(258p)(*건너뜀*)
 ## [**5.4 상속과 생성자**]
