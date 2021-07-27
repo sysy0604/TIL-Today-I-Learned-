@@ -155,13 +155,13 @@
 >       2) 변수에 버튼 위젯 대입
 >           mybutton = (button) findViewById(R.id.button1);
 >       3) 버튼을 클릭할 때 동작하는 클래스 정의
->           mybutton.setOnClickListener(new View.OnClickListener()
+>           <mybutton.setOnClickListener(new View.OnClickListener()
 >           {
 >               public void onClick(View v)
 >               {
 >               //동작 내용을 이 부분에 코딩
 >               }
->           }
+>           }>
 >
 > * 에디트텍스트 : 값을 입력받은 후 해당 값을 Java코드에서 가져와 사용하는 용도
 >    * 에디트텍스트 사용 형식
