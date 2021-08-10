@@ -4,6 +4,8 @@
 >
 ### 알아두면 좋은 정보
 >* shift + 윈도우 키 + space : 한/영 안 바뀔 경우 사용.
+>* ctrl + shift + + : 글자 확대
+>* ctrl + - : 글자 축소
 >
 ### 84p, 85p
 >* ex) [cskisa@localhost ~]$
