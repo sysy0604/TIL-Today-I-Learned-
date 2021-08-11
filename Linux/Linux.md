@@ -163,12 +163,12 @@
 >   2) ls temp                    : ls 명령으로 temp 디렉터리에 복사된 text_02 파일 확인
 >
 >* [도전문제 3-11] 162p
->   1)mkdir workspace_ict : 홈 디렉터리에서 workspace 디렉터리 생성
->     ls
->   2)touch workspace_ict/sample.txt
->   3)ls workspace_ict
->   4)cp -r workspace_ict copy_workspace_ict
->     ls
+>   1) mkdir workspace_ict : 홈 디렉터리에서 workspace 디렉터리 생성
+>      ls
+>   2) touch workspace_ict/sample.txt
+>   3) ls workspace_ict
+>   4) cp -r workspace_ict copy_workspace_ict
+>      ls
 >
 #### 7. 파일 이동(178p)
 >* mv : move의 약어. 파일이나 디렉터리를 다른 디렉터리로 이동하기 위해 사용. 파일 이름이나 디렉터리 이름 변경시에도 사용.
