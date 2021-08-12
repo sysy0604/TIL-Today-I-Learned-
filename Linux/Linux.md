@@ -297,3 +297,6 @@
 >       * touch : 새로운 빈 파일(.txt) 생성
 >       * **[chown cskisa /home/sno_2023002/work   : chown 명령으로 work 디렉터리의 소유자를 cskisa 계정으로 변경]**
 >       
+>* 파일 소유자와 그룹 동시 변경
+>   * 예제 6-24(321p)
+>       * chown cskisa:cskisa /home/sno_2023002_ict/juso.txt : sno_2023002_ict 계정에서 생성한 juso.txt 파일의 소유자와 그룹을 cskisa
