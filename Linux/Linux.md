@@ -274,4 +274,14 @@
 >* groupadd : 새 그룹 생성
 >* 예제6-12(306p)
 
-#### 2. 
+#### 2. 그룹 암호설정 및 삭제
+>* 기존 그룹에 새 멤버 추가 : -a 옵션(310p)
+>   * 예제 6-15(308p~309p)
+>       * useradd sno_2023001_ict               : 새 사용자 계정 sno_2023001_ict 생성
+>       * grep sno_2023001_ict /etc/group       : /etc/group 파일에서 문자열 sno_2023001_ict을 찾아서 출력
+>       * **gpasswd -a** sno_2023001_ict db_zone    : 사용자 계정 sno_2023001_ict 계정을 db_zone 그룹의 멤버로 추가
+>
+>* 기존 그룹에 있는 특정 멤버 삭제 : -d 옵션(311p)
+>   * 예제 6-16(311p)
+>       * **gpasswd -d** sno_2023001_ict db_zone : db_zone 그룹에 있는 sno_2023002 멤버 삭제
+>       * grep sno_2023001 /etc/group            : grep 명령으로 sno_2023001에 대한 정보 조회, 소속된 그룹이 지정되어 있지 않음을 확인.
