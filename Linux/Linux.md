@@ -299,4 +299,4 @@
 >       
 >* 파일 소유자와 그룹 동시 변경
 >   * 예제 6-24(321p)
->       * chown cskisa:cskisa /home/sno_2023002_ict/juso.txt : sno_2023002_ict 계정에서 생성한 juso.txt 파일의 소유자와 그룹을 cskisa
+>       * chown cskisa:cskisa /home/sno_2023002_ict/juso.txt : sno_2023002_ict 계정에서 생성한 juso.txt 파일의 소유자와 그룹을 cskisa 계정으로 동시 변경
