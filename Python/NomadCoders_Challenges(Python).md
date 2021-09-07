@@ -14,14 +14,11 @@
 >   * 실수형(Float) : 소수점 이하 자릿수가 있는 숫자를 저장.   ex) a_float = 2.17
 >   * 문자열(String) : 문자를 저장.   ex) a_string = 'like this' or a_string = "like this"
 >   * 논리형(Boolean) : 참(1)/거짓(0)을 나타냄.    ex) a_boolean = True or a_boolean = False
->   * None : 비어있다. 존재하지 않는다. 그냥 없다. 파이썬에만 있는 변수형. 
-></br>
+>   * None : 비어있다. 존재하지 않는다. 그냥 없다. 파이썬에만 있는 변수형.
 >
 >* print() 함수 : 터미널(화면)에 결과를 출력해주는 함수
-></br>
 >
 >* 파이썬에서는 첫 문자를 대문자로!
-></br>
 >
 >* snake case
 >   * 뱀 같이 _ (언더바) 로 길게 연결한 표기법. Python유저들의 암묵적인 약속.
