@@ -19,10 +19,10 @@
 >* print() 함수 : 터미널(화면)에 결과를 출력해주는 함수
 >
 >* 파이썬에서는 첫 문자를 대문자로!
-><pre>
+>
 >* snake case
 >   * 뱀 같이 _ (언더바) 로 길게 연결한 표기법. Python유저들의 암묵적인 약속.
->   * ex) super_long_variable   </pre> //_ 를 이용하여 소문자 단어 사이사이를 이어준다.
+>   * ex) super_long_variable   &nbsp//_ 를 이용하여 소문자 단어 사이사이를 이어준다.
 </br>
 
 ## 1.1  Lists in Python (08:30)
