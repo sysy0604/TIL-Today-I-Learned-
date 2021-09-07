@@ -22,7 +22,7 @@
 >
 >* snake case
 >   * 뱀 같이 _ (언더바) 로 길게 연결한 표기법. Python유저들의 암묵적인 약속.
->   * ex) super_long_variable   //_ 를 이용하여 소문자 단어 사이사이를 이어준다.
+>   * ex) super_long_variable   &ansp //_ 를 이용하여 소문자 단어 사이사이를 이어준다.
 </br>
 
 ## 1.1  Lists in Python (08:30)
