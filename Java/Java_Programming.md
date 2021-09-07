@@ -76,7 +76,7 @@
 >* 객체의 멤버 접근
 >  * 객체 레퍼런스 멤버
 ><pre>
->    [그림4-12]
+>[그림4-12]
 >   public static void main(String args[])
 >  {
 >     Circle pizza;   //Circle객체에 대한 레퍼런스 변수 pizza 선언
