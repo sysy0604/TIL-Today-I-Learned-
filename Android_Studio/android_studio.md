@@ -45,6 +45,7 @@
 >562p 안드로이드 기기에서 실습하기
 >* file - setting - autoimport  //명령어 자동으로 입력해주는 설정.
 >
+><pre>
 >* <버튼 클릭시 이벤트 실행>
 >
 >button = (Button)findViewById(R.id.button0);    //findViewById : 변수 별명(ID) 지정
@@ -56,10 +57,12 @@
 >        });
 >
 >Toast.makeText(getApplicationContext(), "버튼이 눌렸습니다.", Toast.LENGTH_SHORT).show();  //버튼 눌렸을 때 토스트메시지 출력
+></pre>
 >
 **21.07.19**
 >104p 직접 풀어보기2-3 실습
 >* 변수 4개 설정. 하나씩 해당 코드 적용
+><pre>
 > Intent mlntent = new Intent(Intent.ACTION_VIEW, Uri.parse("")); //Intent : 화면 전환을 위한 수단
 >
 >* Intent mlntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"));   //홈페이지 창 열기(네이버)    //Intent : 화면 전환을 위한 수단
@@ -68,6 +71,7 @@
 >* finish();   //앱 종료
 >* button1.setBackgroundColor(Color.GRAY);  //버튼 배경색 지정
 >* button1.setTextColor(Color.BLACK);       //버튼 글자색 지정
+></pre>
 >
 
 # 4장 기본 위젯 익히기
@@ -150,6 +154,7 @@
 ### 3.버튼과 에디트텍스트(172p)
 >* 버튼 : 버튼을 클릭하는 이벤트를 가장 많이 사용함.
 >   * 버튼 클릭 시 동작하는 Java코드 3단계
+><pre>
 >       1) 버튼 변수 선언
 >           button mybutton;
 >       2) 변수에 버튼 위젯 대입
@@ -162,15 +167,18 @@
 >               //동작 내용을 이 부분에 코딩
 >               }
 >           }
+></pre>
 >
 > * 에디트텍스트 : 값을 입력받은 후 해당 값을 Java코드에서 가져와 사용하는 용도
 >    * 에디트텍스트 사용 형식
+><pre>
 >       1) 에디트텍스트 변수 선언
 >           EditText myEdit;
 >       2) 변수에 에디트텍스트 위젯 대입
 >           myEdit = (EditText) findViewById(R.id.edittext1);
 >       3) 에디트텍스트에 입력된 값 가져오기 -> 주로 버튼 클릭 이벤트 리스너 안에 삽입(해당 데이터 타입으로 변환해서)
 >           String myEdit.getText().toString(); //사용자에게 키보드로 입력받는 코드(문자열)
+></pre>
 >
 >* [실습 4-1 초간단 계산기 앱 만들기 (174~179p)] 
 >   * OnClick : 눌렀다 떼다. 눌렀을땐 동작 x. 떼는 순간에 이벤트 발생
@@ -186,12 +194,15 @@
 >
 >* 체크박스에서 체크와 언체크가 바뀔 때 Java 처리
 >   * 버튼 클릭과 절차가 거의 동일함
+><pre>
 >       1) 체크박스 변수 선언
 >           CheckBox mycheck;
 >       2) 변수에 체크박스 위젯 대입
 >           mycheck = (CheckBox) findViewById(R.id.android);
 >       3) 체크박스가 변경될 때 동작하는 클래스 정의
 >           
+></pre>
+>
 >* 스위치와 토글버튼
 >   * 스위치와 토글버튼은 모양만 조금 다름. 용도는 거의 동일
 >   * 스위치의 주 용도 : 온/오프 상태 표시
