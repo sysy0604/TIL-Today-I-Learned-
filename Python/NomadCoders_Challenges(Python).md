@@ -10,7 +10,7 @@
 
 ## 1.0 Data Types of Python (08:48)
 >* 변수(variables) : 정보를 넣는 곳, 데이터를 저장하는 곳. 뭔가를 집어넣는 박스.
->   * 정수형(Int): 숫자를 저장.      ex) a_int = 2
+>   * 정수형(Int) : 숫자를 저장.      ex) a_int = 2
 >   * 실수형(Float) : 소수점 이하 자릿수가 있는 숫자를 저장.   ex) a_float = 2.17
 >   * 문자열(String) : 문자를 저장.   ex) a_string = 'like this' or a_string = "like this"
 >   * 논리형(Boolean) : 참(1)/거짓(0)을 나타냄.    ex) a_boolean = True or a_boolean = False
