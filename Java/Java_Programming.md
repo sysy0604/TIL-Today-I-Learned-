@@ -75,7 +75,8 @@
 >      
 >* 객체의 멤버 접근
 >  * 객체 레퍼런스 멤버
->  [그림4-12]
+><pre>
+>    [그림4-12]
 >   public static void main(String args[])
 >  {
 >     Circle pizza;   //Circle객체에 대한 레퍼런스 변수 pizza 선언
@@ -85,6 +86,7 @@
 >     pizza.name = "자바 피자";
 >     double area = pizza.getArea();
 >  }
+></pre>
 >
 >* [예제4-1] 183p
 >* [예제4-2] 185p
