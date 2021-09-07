@@ -5,6 +5,7 @@
 </br>
 </br>
 </br>
+
 # 1일차(강의 1.0 ~ 1.3)
 
 ## 1.0 Data Types of Python (08:48)
